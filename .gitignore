@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DeRegiME generated artifacts
+raw_data/
+data/
+runs/
+logs*/
+.matplotlib_cache/
+*.pt
+*.pth
+*.ckpt

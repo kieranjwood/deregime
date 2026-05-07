@@ -1,0 +1,10 @@
+# Tested environment used for the paper/release checks.
+# Prefer installing from pyproject.toml with uv; this file records versions.
+numpy==2.4.4
+pandas==3.0.2
+torch==2.11.0
+gpytorch==1.15.2
+scikit-learn==1.8.0
+matplotlib==3.10.8
+tqdm==4.67.3
+scipy==1.17.1

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deregime"
+version = "0.1.0"
+description = "Probabilistic regime-switching time series forecasting with Gaussian processes"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "torch",
+    "gpytorch",
+    "scikit-learn",
+    "matplotlib",
+    "tqdm",
+    "scipy",
+]
+
+[project.optional-dependencies]
+data = [
+    "gdown",
+    "yfinance",
+]
+
+[project.scripts]
+deregime = "deregime.run:main"
+
+[tool.setuptools.packages.find]
+include = ["deregime*"]
