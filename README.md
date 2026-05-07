@@ -33,10 +33,11 @@ checklist:
 
 ## Quick Start
 
-All commands below assume you are working from the repository root:
+All commands below assume you are working from the repository root.  If you are
+elsewhere, first enter the unpacked project directory:
 
 ```bash
-cd deregime_clean
+cd <PROJECT_DIR>
 ```
 
 Create a local environment with `uv` and install the package:

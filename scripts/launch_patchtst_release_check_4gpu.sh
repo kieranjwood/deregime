@@ -19,8 +19,8 @@ Launches clean PatchTST release checks, one dataset per GPU:
 Environment:
   VENV_PY   Python executable with numpy/torch/gpytorch installed
             default: $ROOT/.venv/bin/python
-  OUT_DIR   output directory relative to deregime_clean
-  LOGS_DIR  log directory relative to deregime_clean
+  OUT_DIR   output directory relative to the project root
+  LOGS_DIR  log directory relative to the project root
 EOF
   exit 0
 fi

@@ -36,12 +36,12 @@ def launch(dataset: str, argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--out-dir",
         default="runs/patchtst_release_check",
-        help="Output directory, relative to deregime_clean unless absolute.",
+        help="Output directory, relative to the project root unless absolute.",
     )
     parser.add_argument(
         "--logs-dir",
         default="logs_patchtst_release_check",
-        help="Log directory, relative to deregime_clean unless absolute.",
+        help="Log directory, relative to the project root unless absolute.",
     )
     parser.add_argument(
         "--foreground",
