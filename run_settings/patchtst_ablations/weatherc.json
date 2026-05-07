@@ -1,6 +1,6 @@
 [
   {
-    "name": "patchtst_deregime_exchange",
+    "name": "patchtst_deregime_weatherc",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -53,7 +53,7 @@
       "test_segment_plot_len": 5000,
       "batch_size": 512,
       "eval_batch_size": 512,
-      "gradient_accumulation_steps": 2,
+      "gradient_accumulation_steps": 4,
       "student_t_df_init": 10.0,
       "student_t_df_min": 4.0,
       "student_t_df_max": 100.0,
@@ -72,7 +72,7 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
+      "file": "data/WeatherC.csv",
       "valid_ratio": 0.1,
       "model_type": "regime_gp",
       "use_student_t_likelihood": true,
@@ -87,7 +87,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_softmax_gate_exchange",
+    "name": "patchtst_ablation_softmax_gate_weatherc",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -140,7 +140,7 @@
       "test_segment_plot_len": 5000,
       "batch_size": 512,
       "eval_batch_size": 512,
-      "gradient_accumulation_steps": 2,
+      "gradient_accumulation_steps": 4,
       "student_t_df_init": 10.0,
       "student_t_df_min": 4.0,
       "student_t_df_max": 100.0,
@@ -159,7 +159,7 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
+      "file": "data/WeatherC.csv",
       "valid_ratio": 0.1,
       "model_type": "regime_gp",
       "use_student_t_likelihood": true,
@@ -174,7 +174,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_no_deep_mean_exchange",
+    "name": "patchtst_ablation_no_deep_mean_weatherc",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -227,7 +227,7 @@
       "test_segment_plot_len": 5000,
       "batch_size": 512,
       "eval_batch_size": 512,
-      "gradient_accumulation_steps": 2,
+      "gradient_accumulation_steps": 4,
       "student_t_df_init": 10.0,
       "student_t_df_min": 4.0,
       "student_t_df_max": 100.0,
@@ -246,7 +246,7 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
+      "file": "data/WeatherC.csv",
       "valid_ratio": 0.1,
       "model_type": "regime_gp",
       "use_student_t_likelihood": true,
@@ -261,7 +261,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_global_likelihood_exchange",
+    "name": "patchtst_ablation_global_likelihood_weatherc",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -314,7 +314,7 @@
       "test_segment_plot_len": 5000,
       "batch_size": 512,
       "eval_batch_size": 512,
-      "gradient_accumulation_steps": 2,
+      "gradient_accumulation_steps": 4,
       "student_t_df_init": 10.0,
       "student_t_df_min": 4.0,
       "student_t_df_max": 100.0,
@@ -333,7 +333,7 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
+      "file": "data/WeatherC.csv",
       "valid_ratio": 0.1,
       "model_type": "regime_gp",
       "use_student_t_likelihood": true,
@@ -349,7 +349,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_no_residual_variance_exchange",
+    "name": "patchtst_ablation_no_residual_variance_weatherc",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -402,7 +402,7 @@
       "test_segment_plot_len": 5000,
       "batch_size": 512,
       "eval_batch_size": 512,
-      "gradient_accumulation_steps": 2,
+      "gradient_accumulation_steps": 4,
       "student_t_df_init": 10.0,
       "student_t_df_min": 4.0,
       "student_t_df_max": 100.0,
@@ -421,7 +421,7 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
+      "file": "data/WeatherC.csv",
       "valid_ratio": 0.1,
       "model_type": "regime_gp",
       "use_student_t_likelihood": true,
@@ -436,7 +436,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_gaussian_mixture_exchange",
+    "name": "patchtst_ablation_gaussian_mixture_weatherc",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -489,7 +489,7 @@
       "test_segment_plot_len": 5000,
       "batch_size": 512,
       "eval_batch_size": 512,
-      "gradient_accumulation_steps": 2,
+      "gradient_accumulation_steps": 4,
       "student_t_df_init": 10.0,
       "student_t_df_min": 4.0,
       "student_t_df_max": 100.0,
@@ -508,7 +508,7 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
+      "file": "data/WeatherC.csv",
       "valid_ratio": 0.1,
       "model_type": "regime_gp",
       "use_student_t_likelihood": false,
@@ -524,7 +524,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_gaussian_deregime_exchange",
+    "name": "patchtst_ablation_gaussian_deregime_weatherc",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -577,7 +577,7 @@
       "test_segment_plot_len": 5000,
       "batch_size": 512,
       "eval_batch_size": 512,
-      "gradient_accumulation_steps": 2,
+      "gradient_accumulation_steps": 4,
       "student_t_df_init": 10.0,
       "student_t_df_min": 4.0,
       "student_t_df_max": 100.0,
@@ -596,7 +596,7 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
+      "file": "data/WeatherC.csv",
       "valid_ratio": 0.1,
       "model_type": "regime_gp",
       "use_student_t_likelihood": false,
@@ -610,7 +610,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_mdn_exchange",
+    "name": "patchtst_ablation_mdn_weatherc",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -682,7 +682,7 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
+      "file": "data/WeatherC.csv",
       "valid_ratio": 0.1,
       "model_type": "single_encoder_mdn",
       "use_student_t_likelihood": false,
@@ -696,7 +696,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_mdn_t_exchange",
+    "name": "patchtst_ablation_mdn_t_weatherc",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -768,7 +768,7 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
+      "file": "data/WeatherC.csv",
       "valid_ratio": 0.1,
       "model_type": "single_encoder_mdn",
       "use_student_t_likelihood": true,
@@ -782,7 +782,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_residual_dkl_t_exchange",
+    "name": "patchtst_ablation_residual_dkl_t_weatherc",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -835,7 +835,7 @@
       "test_segment_plot_len": 5000,
       "batch_size": 512,
       "eval_batch_size": 512,
-      "gradient_accumulation_steps": 2,
+      "gradient_accumulation_steps": 4,
       "student_t_df_init": 10.0,
       "student_t_df_min": 4.0,
       "student_t_df_max": 100.0,
@@ -854,7 +854,7 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
+      "file": "data/WeatherC.csv",
       "valid_ratio": 0.1,
       "model_type": "regime_gp",
       "single_kernel_mode": true,

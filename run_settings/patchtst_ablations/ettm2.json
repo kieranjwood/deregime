@@ -1,6 +1,6 @@
 [
   {
-    "name": "patchtst_deregime_exchange",
+    "name": "patchtst_deregime_ettm2",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -72,8 +72,8 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
-      "valid_ratio": 0.1,
+      "file": "data/ETTm2.csv",
+      "valid_ratio": 0.2,
       "model_type": "regime_gp",
       "use_student_t_likelihood": true,
       "student_t_regime_mixture_likelihood": true,
@@ -87,7 +87,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_softmax_gate_exchange",
+    "name": "patchtst_ablation_softmax_gate_ettm2",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -159,8 +159,8 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
-      "valid_ratio": 0.1,
+      "file": "data/ETTm2.csv",
+      "valid_ratio": 0.2,
       "model_type": "regime_gp",
       "use_student_t_likelihood": true,
       "student_t_regime_mixture_likelihood": true,
@@ -174,7 +174,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_no_deep_mean_exchange",
+    "name": "patchtst_ablation_no_deep_mean_ettm2",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -246,8 +246,8 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
-      "valid_ratio": 0.1,
+      "file": "data/ETTm2.csv",
+      "valid_ratio": 0.2,
       "model_type": "regime_gp",
       "use_student_t_likelihood": true,
       "student_t_regime_mixture_likelihood": true,
@@ -261,7 +261,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_global_likelihood_exchange",
+    "name": "patchtst_ablation_global_likelihood_ettm2",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -333,8 +333,8 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
-      "valid_ratio": 0.1,
+      "file": "data/ETTm2.csv",
+      "valid_ratio": 0.2,
       "model_type": "regime_gp",
       "use_student_t_likelihood": true,
       "student_t_regime_mixture_likelihood": true,
@@ -349,7 +349,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_no_residual_variance_exchange",
+    "name": "patchtst_ablation_no_residual_variance_ettm2",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -421,8 +421,8 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
-      "valid_ratio": 0.1,
+      "file": "data/ETTm2.csv",
+      "valid_ratio": 0.2,
       "model_type": "regime_gp",
       "use_student_t_likelihood": true,
       "student_t_regime_mixture_likelihood": true,
@@ -436,7 +436,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_gaussian_mixture_exchange",
+    "name": "patchtst_ablation_gaussian_mixture_ettm2",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -508,8 +508,8 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
-      "valid_ratio": 0.1,
+      "file": "data/ETTm2.csv",
+      "valid_ratio": 0.2,
       "model_type": "regime_gp",
       "use_student_t_likelihood": false,
       "student_t_regime_mixture_likelihood": false,
@@ -524,7 +524,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_gaussian_deregime_exchange",
+    "name": "patchtst_ablation_gaussian_deregime_ettm2",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -596,8 +596,8 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
-      "valid_ratio": 0.1,
+      "file": "data/ETTm2.csv",
+      "valid_ratio": 0.2,
       "model_type": "regime_gp",
       "use_student_t_likelihood": false,
       "student_t_regime_mixture_likelihood": false,
@@ -610,7 +610,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_mdn_exchange",
+    "name": "patchtst_ablation_mdn_ettm2",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -682,8 +682,8 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
-      "valid_ratio": 0.1,
+      "file": "data/ETTm2.csv",
+      "valid_ratio": 0.2,
       "model_type": "single_encoder_mdn",
       "use_student_t_likelihood": false,
       "mdn_num_components": 16,
@@ -696,7 +696,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_mdn_t_exchange",
+    "name": "patchtst_ablation_mdn_t_ettm2",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -768,8 +768,8 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
-      "valid_ratio": 0.1,
+      "file": "data/ETTm2.csv",
+      "valid_ratio": 0.2,
       "model_type": "single_encoder_mdn",
       "use_student_t_likelihood": true,
       "mdn_num_components": 16,
@@ -782,7 +782,7 @@
     }
   },
   {
-    "name": "patchtst_ablation_residual_dkl_t_exchange",
+    "name": "patchtst_ablation_residual_dkl_t_ettm2",
     "overrides": {
       "future_decoder_type": "sequence_flatten",
       "unified_pred_features": true,
@@ -854,8 +854,8 @@
         "n_layers": 3,
         "d_ff_mult_hidden": 4
       },
-      "file": "data/Exchange.csv",
-      "valid_ratio": 0.1,
+      "file": "data/ETTm2.csv",
+      "valid_ratio": 0.2,
       "model_type": "regime_gp",
       "single_kernel_mode": true,
       "use_student_t_likelihood": true,
